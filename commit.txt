@@ -1,4 +1,10 @@
+git init ªì©l¤Æ
+
 git status 
 git add .
 git commit -m " "
 git push origin master
+
+git remote -v
+
+
