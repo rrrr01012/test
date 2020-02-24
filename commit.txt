@@ -1,4 +1,4 @@
-git init ªì©l¤Æ
+git init ï¿½ï¿½lï¿½ï¿½
 
 git status 
 git add .
@@ -6,7 +6,9 @@ git commit -m " "
 git push origin master
 
 git remote -v          
-git clone +ºô§}  
-git remote add +ºô§} //­nµn¤J
+git clone +ï¿½ï¿½ï¿½}  
+git remote add +ï¿½ï¿½ï¿½} //ï¿½nï¿½nï¿½J
 
+
+vs code use " crtl + enter" to commit messege
 
