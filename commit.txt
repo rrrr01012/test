@@ -5,6 +5,8 @@ git add .
 git commit -m " "
 git push origin master
 
-git remote -v
+git remote -v          
+git clone +網址  
+git remote add +網址 //要登入
 
 
