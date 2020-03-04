@@ -12,3 +12,4 @@ git remote add +���} //�n�n�J
 
 vs code use " crtl + enter" to commit messege
 
+html use shift+F5 to compile
