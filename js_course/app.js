@@ -3,7 +3,7 @@ console.log(a);         //變數會預設undefine
 
 var a;          //mem中載入一個undefined變數a
 if(a===undefined){
-    console.log("a is undefined .");
+    console.log("a is undefined .....");
 }
 else{
     console.log("a is defined .");
