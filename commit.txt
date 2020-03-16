@@ -1,4 +1,4 @@
-git init ��l��
+git init   l  
 
 git status 
 git add .
@@ -6,8 +6,8 @@ git commit -m " "
 git push origin master
 
 git remote -v          
-git clone +���}  
-git remote add +���} //�n�n�J
+git clone + 網址
+git remote add + name  
 
 
 vs code use " crtl + enter" to commit messege
