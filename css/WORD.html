@@ -1,0 +1,62 @@
+﻿<html>
+    <head>
+        <style>
+            .word{
+                
+                font-size: 50px;
+                margin: auto;
+            }
+            .key{
+                
+                font-size: 150px;
+                margin:200px;
+                text-align: center;
+            }
+            .keycode{
+                font-size: 30px;
+                margin-left: 40px;
+            }
+            .location1{
+                margin-right: 180px;
+                float: left;
+                padding: 20px;
+               
+            }
+            .location2{
+                margin-right: 180px;
+                margin:30px;
+                padding: 20px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id=KEY class="word">
+            <h1>press key</h1>
+        </div>
+        <div class=keycode>
+            <div class=location1>
+                <span id=KEY2></span>
+            </div>
+            <div class=location2>
+                <span id=KEY3></span>
+            </div>
+        </div>
+        
+            
+       
+        <script>
+            window.addEventListener('keydown',function(a){
+                var x=a.key;
+                var y=a.keyCode;
+                var z=a.location;
+                document.getElementById("KEY").classList.add("key");
+                document.getElementById("KEY").innerHTML=x;
+                document.getElementById("KEY2").innerHTML="keycode="+y;
+                document.getElementById("KEY3").innerHTML="location="+z;
+
+            });
+        </script>
+        
+    </body>
+</html>
