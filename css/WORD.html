@@ -5,16 +5,22 @@
                 
                 font-size: 50px;
                 margin: auto;
+                padding:60px;
+                border:solid ;
+                text-align: center;
             }
             .key{
                 
                 font-size: 150px;
                 margin:200px;
+                border:solid ;
                 text-align: center;
             }
             .keycode{
                 font-size: 30px;
                 margin-left: 40px;
+            
+                
             }
             .location1{
                 margin-right: 180px;
@@ -52,12 +58,14 @@
                 var z=a.location;
                 if(y==32){ 
                     document.getElementById("KEY").classList.add("key");
+                    document.getElementById("KEY").classList.remove("word");
                     document.getElementById("KEY").innerHTML="space";
                     document.getElementById("KEY2").innerHTML="keycode="+y;
                     document.getElementById("KEY3").innerHTML="location="+z;
                 }
                 else{
                 document.getElementById("KEY").classList.add("key");
+                document.getElementById("KEY").classList.remove("word");
                 document.getElementById("KEY").innerHTML=x;
                 document.getElementById("KEY2").innerHTML="keycode="+y;
                 document.getElementById("KEY3").innerHTML="location="+z;
