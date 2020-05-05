@@ -1,0 +1,10 @@
+{
+    "students":[
+        {"id": 1, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"},
+        {"id": 2, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"},
+        {"id": 3, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"},
+        {"id": 4, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"},
+        {"id": 5, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"},
+        {"id": 6, "name":"貓貓","gender":0,"age":18,"hobbies":"吃飯、睡覺、lol"}
+    ]
+}
