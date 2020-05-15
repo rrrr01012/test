@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>文檔的標題</title>
+
+</head>
+
+
+
+<body>
+    <script>
+        //setTimeout
+        //readfile
+        //ajax
+        //往往都伴隨一個回調函式
+        //var ret=fn()
+        //$.get('dasdsadsa',function(){})
+        //var ret = $.get
+        function get(url,callback) {
+            var xhr = new XMLHttpRequest()
+            //當請求成功要調用指定的函式
+            xhr.onload = function () {
+                //需要這裡的text 
+                callback(xhr.responseText)
+            }
+            xhr.open("get", url, true)
+            xhr.send();
+        }
+        get('data.json',function(data){
+            console.log(data)
+        })
+        //基於XMLHttp封裝get方法
+    </script>
+
+
+</body>
+
+
+
+</html>
