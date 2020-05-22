@@ -14,7 +14,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "express-art-template": "^1.0.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {},
