@@ -69,7 +69,9 @@ router.post('/students/edit', function (req, res) {
       if (err) {
         return res.status(500).send('Server error.')
       }
+      
       res.redirect('/students')
+
     })
 })
 router.get('/students/delete',function(req,res){
@@ -80,7 +82,7 @@ router.get('/students/delete',function(req,res){
         res.redirect('/students')
 
     })
-    console.log(req.query.id)
+    
 })
 
 module.exports = router
