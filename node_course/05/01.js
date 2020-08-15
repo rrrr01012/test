@@ -10,6 +10,11 @@ function res(ret){
     console.log(ret)
 }
  add(20,10,res)
+
+
+
+ 
+ console.log(add)
 //  add(20,10,function res(ret){
 //      console.log(ret)
 //  })

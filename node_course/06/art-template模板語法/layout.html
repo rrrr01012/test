@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>文檔的標題</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    {{block 'head'}}{{/block}}
+</head>
+
+
+
+<body>
+
+    {{ block 'content'}}
+        <h1>默認內容</h1>
+    {{/block}}
+    <script>src="/node_modulese/bootstrap/dist/js/bootstrap.js"</script>
+    {{block 'script'}}{{/block}}
+</body>
+</html>
